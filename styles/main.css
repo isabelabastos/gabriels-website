@@ -1,0 +1,591 @@
+nav, section, footer{display: block;}
+
+body{
+    background-color: #032212;
+    color: #00351A;
+
+}
+a{
+    color: #00B157;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+h5{
+    margin: 0;
+}
+h3{
+    margin: 1% 0 1% 0;
+}
+
+#wrap{
+    position: static;
+    padding: 24% 0 5% 0;
+    margin: 0 4% 0 18%;
+    background: #F8F8F8;
+    width: 62.55%;
+    clear: both;
+}
+
+
+nav{
+    position: fixed;
+    width: 62%;
+    top: 0;
+    background: #032212;
+    padding: 0;
+    z-index: 10;
+}
+
+nav img{
+    width: 100%;
+
+}
+
+nav ul{
+    list-style: none;
+    background-color: #F8F8F8;
+    padding: 1%;
+    margin: 0;
+    border-bottom: 2px solid #915000;
+    border-top: 2px solid #915000;
+}
+
+nav li{
+    display: inline;
+    padding: 2% 4% 2% 4%;
+}
+
+nav li:hover{
+    background-color: #032212;
+    color: #F8F8F8;
+}
+
+nav a{
+    letter-spacing: 0.06em;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: #006633;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #F8F8F8;
+    font-weight: normal;
+}
+
+main{
+    font-family: 'Noto Sans', sans-serif;
+    position: relative;
+    margin: 4% 8% 4% 8%;
+    bottom: 10px;
+    text-align: left;
+}
+
+main p{
+    margin: 1%;
+}
+
+section{
+    position: relative;
+    float: left;
+    width: 40%;
+    margin: 2% 3% 2% 3%;
+    padding: 1%;
+    border: 1px dashed #915000;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.large_section{
+    width: 70%;
+    text-align: center;
+    margin: 5% 0 5% 15%;
+}
+
+.news_image{
+    position: relative;
+    float: right;
+    width: 15%;
+    padding: 6% 1% 1% 1%;
+}
+
+.news_description{
+    position: relative;
+    float: left;
+    width: 75%;
+    padding: 1% 0 0.5% 0;
+}
+
+.post_date{
+    position: relative;
+    float: left;
+    font-size: 0.6em;
+    margin: 1% 4% 1% 1%;
+}
+
+.top_image{
+    position: relative;
+    float: right;
+    width: 25%;
+    padding: 6% 1% 1% 1%;
+}
+
+aside{
+    width: 15%;
+    position: fixed;
+    padding-left: 1%;
+    top: 70%;
+    left: -10.3%;
+    background-color: rgba(0,177,87,0.5);
+    color: #F8F8F8;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+aside a{
+    position: relative;
+    float: left;
+    color: #F8F8F8;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+aside img{
+    position: relative;
+    float: right;
+    width: 20%;
+    padding: 0 5% 15% 0;
+}
+aside p{
+    width: 75%;
+    margin: 10% 0 4% 0;
+}
+
+aside:hover{
+    transition: 1s;
+    left: 0;
+}
+
+iframe{
+    width: 35em;
+    height: 19.6em;
+}
+
+
+
+
+/** media **/
+@media (max-width: 1580px) {
+
+    nav a{
+        font-size: 1.1em;
+    }
+
+    iframe{
+        width: 28em;
+        height: 15em;
+    }
+
+}
+
+
+
+@media (max-width: 1210px){
+
+    #wrap{
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    nav{
+        width: 83.8%;
+        font-size: 1.5em;
+    }
+
+    main{
+        margin-top: 20%;
+    }
+    section{
+        width: 90%;
+    }
+
+    iframe{
+        width: 28em;
+        height: 15em;
+    }
+
+}
+
+@media (max-width: 880px) {
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 1px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+
+
+}
+
+@media	only screen and (-webkit-min-device-pixel-ratio: 1.3),
+only screen and (-o-min-device-pixel-ratio: 13/10),
+only screen and (min-resolution: 120dpi)
+{
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 1px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+}
+
+
+/*apple*/
+
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 1px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+
+}
+
+/*iPhone 6 landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+
+
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 1px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+
+
+}
+
+/*iPhone 6+ Portrait*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 1px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+
+
+}
+
+/*iPhone 6+ landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+
+
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 1px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+}
+
+/*iPhone 6 and iPhone 6+ portrait and landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 1px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+}
+
+/*iPhone 6 and iPhone 6+ portrait*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : portrait){
+
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 1px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+
+}
+
+#blackOut{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10% 15% 80% 35%;
+    z-index: 200;
+}
+
+/*iPhone 6 and iPhone 6+ landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : landscape){
+
+    #wrap{
+        width: 90%;
+    }
+    nav{
+        width: 87.5%;
+    }
+
+    nav li{
+        text-align: center;
+        display: block;
+        border-bottom: 2px dashed #032212;
+        margin: 0;
+    }
+
+    main{
+        margin-top: 65%;
+    }
+
+    section{
+        border: none;
+        padding-bottom: 15%;
+    }
+
+    aside{
+        left: -50%;
+    }
+
+    .large_section{
+        width: 70%;
+        text-align: center;
+        margin: 5% 0 5% 5%;
+    }
+
+}

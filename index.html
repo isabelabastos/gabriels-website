@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expert Nerd</title>
+    <link href="styles/main.css" rel="stylesheet" media="screen"/>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Sans" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="startUp();">
+
+    <div id="wrap">
+
+
+         <nav>
+             <img src="images/banner-dark-newlogo.png" />
+             <ul>
+                 <li><a href="index.html">Noticias</a> </li>
+                 <li><a href="top10.html">Top 10</a> </li>
+                 <li><a href="videos.html">Videos</a> </li>
+                 <li><a href="jogos.html" target="_blank">Meus jogos</a> </li>
+                 <li><a href="#" onclick="showForm();">Contato</a> </li>
+             </ul>
+        </nav>
+
+        <main>
+            <section>
+                <img class="news_image" src="images/dummies/dummy.png"/>
+                <h3>Logan</h3>
+                <h5>Filmes</h5>
+                <p class="news_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas laoreet nulla, at imperdiet augue tristique quis. Suspendisse erat felis, viverra sed ipsum vel, porttitor ornare dolor. Phasellus scelerisque magna magna, ut dapibus velit facilisis et. Sed quam neque, tincidunt sit amet quam in, dignissim interdum nunc. Etiam mattis feugiat elit id porta. Curabitur vitae ante et orci feugiat luctus quis blandit sapien. Praesent dignissim neque in egestas pellentesque. Suspendisse varius id ligula ut eleifend. Nunc sit amet est nulla. Ut eu nulla pulvinar, pellentesque sem non, mollis augue. Vestibulum ut urna tempor diam porta tempus. Sed in dolor tristique, eleifend velit sit amet, interdum justo. Ut semper faucibus ante, at laoreet justo auctor eget.</p>
+                <div class="clear"></div>
+                <p class="post_date">Date: dd/mm/aaaa</p>
+                <a href="#">Leias mais...</a>
+            </section>
+
+
+            <section>
+                <img class="news_image" src="images/dummies/dummy.png"/>
+                <h3>Titulo</h3>
+                <h5>Categoroia</h5>
+                <p class="news_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas laoreet nulla, at imperdiet augue tristique quis. Suspendisse erat felis, viverra sed ipsum vel, porttitor ornare dolor. Phasellus scelerisque magna magna, ut dapibus velit facilisis et. Sed quam neque, tincidunt sit amet quam in, dignissim interdum nunc. Etiam mattis feugiat elit id porta. Curabitur vitae ante et orci feugiat luctus quis blandit sapien. Praesent dignissim neque in egestas pellentesque. Suspendisse varius id ligula ut eleifend. Nunc sit amet est nulla. Ut eu nulla pulvinar, pellentesque sem non, mollis augue. Vestibulum ut urna tempor diam porta tempus. Sed in dolor tristique, eleifend velit sit amet, interdum justo. Ut semper faucibus ante, at laoreet justo auctor eget.</p>
+                <div class="clear"></div>
+                <p class="post_date">Date: dd/mm/aaaa</p>
+                <a href="#">Leias mais...</a>
+            </section>
+
+
+
+            <section>
+                <img class="news_image" src="images/dummies/dummy.png"/>
+                <h3>Titulo</h3>
+                <h5>Categoroia</h5>
+                <p class="news_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas laoreet nulla, at imperdiet augue tristique quis. Suspendisse erat felis, viverra sed ipsum vel, porttitor ornare dolor. Phasellus scelerisque magna magna, ut dapibus velit facilisis et. Sed quam neque, tincidunt sit amet quam in, dignissim interdum nunc. Etiam mattis feugiat elit id porta. Curabitur vitae ante et orci feugiat luctus quis blandit sapien. Praesent dignissim neque in egestas pellentesque. Suspendisse varius id ligula ut eleifend. Nunc sit amet est nulla. Ut eu nulla pulvinar, pellentesque sem non, mollis augue. Vestibulum ut urna tempor diam porta tempus. Sed in dolor tristique, eleifend velit sit amet, interdum justo. Ut semper faucibus ante, at laoreet justo auctor eget.</p>
+                <div class="clear"></div>
+                <p class="post_date">Date: dd/mm/aaaa</p>
+                <a href="#">Leias mais...</a>
+            </section>
+            <div class="clear"></div>
+
+        </main>
+
+        <aside>
+            <a href="https://www.youtube.com/channel/UCugS-kpWhwXvUPy-v6ZUwWQ">
+                <p>Me siga no youtube</p>
+                <img src="images/youtube.png" rel="So Geek"/>
+            </a>
+        </aside>
+
+    </div>
+
+    <div id="blackOut">
+
+
+
+        <div id="contactForm" style="display: none;">
+            <form>
+                <p style="color:whitesmoke;">Name:<input type="text" class="smallText" maxlength="200px" size="60"> </p>
+                <p style="color:whitesmoke;">E-mail: <input type="text" maxlength="200px" class="smallText" size="60"></p>
+                <p style="color:whitesmoke;">Message:</p> <p> <textarea rows="6" cols="70"> </textarea></p>
+                <input type="button" id="send" value="Send" >  <input type="button" id="cancel" value="Cancel" onclick="closeBox();">
+
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

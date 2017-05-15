@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expert Nerd</title>
+    <link href="styles/main.css" rel="stylesheet" media="screen"/>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Sans" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="startUp();">
+
+<div id="wrap">
+
+    <nav>
+        <img src="images/banner-dark-newlogo.png" />
+        <ul>
+            <li><a href="index.html">Noticias</a> </li>
+            <li><a href="top10.html">Top 10</a> </li>
+            <li><a href="videos.html">Videos</a> </li>
+            <li><a href="jogos.html">Meus jogos</a> </li>
+            <li><a href="#">Contato</a> </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Videos Só Geek</h2>
+
+
+        <!-- Gabriels Video 2-->
+        <section class="large_section">
+        <h3>Meu jogo?</h3>
+        <p class="post_date">23/03/2017</p>
+        <iframe src="https://www.youtube.com/embed/rxlqnk-G_W4" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <div class="clear"></div>
+
+
+        <!--Gabriels Video 1-->
+        <section class="large_section">
+        <h3>Os Aplicativos Mais Inuteis Do Mundo</h3>
+        <p class="post_date">18/03/2017</p>
+        <iframe src="https://www.youtube.com/embed/uujQekPVYlI" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <div class="clear"></div>
+
+
+    </main>
+
+    <aside>
+        <a href="https://www.youtube.com/channel/UCugS-kpWhwXvUPy-v6ZUwWQ">
+            <p>Me siga no youtube
+                <img src="images/youtube.png" rel="So Geek"/>
+            </p>
+        </a>
+    </aside>
+
+</div>
+
+<div id="asideBox">
+    <aside> </aside>
+</div>
+
+<div id="bsideBox"></div>
+<footer> <a href="#" id="noticiasPast">Click para ver historico de noticias.</a></footer>
+
+<div id="blackOut">
+
+
+
+    <div id="contactForm" style="display: none;">
+        <form>
+            <p style="color:whitesmoke;">Name:<input type="text" class="smallText" maxlength="200px" size="60"> </p>
+            <p style="color:whitesmoke;">E-mail: <input type="text" maxlength="200px" class="smallText" size="60"></p>
+            <p style="color:whitesmoke;">Message:</p> <p> <textarea rows="6" cols="70"> </textarea></p>
+            <input type="button" id="send" value="Send" >  <input type="button" id="cancel" value="Cancel" onclick="closeBox();">
+
+
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
